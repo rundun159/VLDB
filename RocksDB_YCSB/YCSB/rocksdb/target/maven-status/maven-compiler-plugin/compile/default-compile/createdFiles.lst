@@ -1,0 +1,3 @@
+com/yahoo/ycsb/db/rocksdb/RocksDBClient.class
+com/yahoo/ycsb/db/rocksdb/RocksDBClient$1.class
+com/yahoo/ycsb/db/rocksdb/RocksDBClient$ColumnFamily.class

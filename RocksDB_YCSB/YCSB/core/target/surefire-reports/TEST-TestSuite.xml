@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.667" tests="41" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk-13.0.2/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/jhpark/TEST/RocksDB-YCSB/YCSB"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/jhpark/TEST/RocksDB-YCSB/YCSB"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-117-generic"/>
+    <property name="user.home" value="/home/jhpark"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="jhpark"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -pl com.yahoo.ycsb:rocksdb-binding -am clean package"/>
+    <property name="java.home" value="/usr/local/java/jdk-13.0.2"/>
+    <property name="user.language" value="ko"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase name="testRandomByteIterator" classname="com.yahoo.ycsb.TestByteIterator" time="0.006"/>
+  <testcase name="testDouble" classname="com.yahoo.ycsb.TestNumericByteIterator" time="0"/>
+  <testcase name="testLong" classname="com.yahoo.ycsb.TestNumericByteIterator" time="0"/>
+  <testcase name="testAcceptableStatus" classname="com.yahoo.ycsb.TestStatus" time="0"/>
+  <testcase name="bytesToDoubleTooShort" classname="com.yahoo.ycsb.TestUtils" time="0"/>
+  <testcase name="bytesToFromDouble" classname="com.yahoo.ycsb.TestUtils" time="0"/>
+  <testcase name="bytesToFromLong" classname="com.yahoo.ycsb.TestUtils" time="0"/>
+  <testcase name="bytesToLongNull" classname="com.yahoo.ycsb.TestUtils" time="0"/>
+  <testcase name="bytesToLongTooShort" classname="com.yahoo.ycsb.TestUtils" time="0"/>
+  <testcase name="jvmUtils" classname="com.yahoo.ycsb.TestUtils" time="0.025"/>
+  <testcase name="testIncrementPastIntegerMaxValue" classname="com.yahoo.ycsb.generator.AcknowledgedCounterGeneratorTest" time="0.425"/>
+  <testcase name="invalidCharacterSets" classname="com.yahoo.ycsb.generator.TestIncrementingPrintableStringGenerator" time="0.001"/>
+  <testcase name="invalidLengths" classname="com.yahoo.ycsb.generator.TestIncrementingPrintableStringGenerator" time="0"/>
+  <testcase name="rolloverException" classname="com.yahoo.ycsb.generator.TestIncrementingPrintableStringGenerator" time="0"/>
+  <testcase name="rolloverOK" classname="com.yahoo.ycsb.generator.TestIncrementingPrintableStringGenerator" time="0.001"/>
+  <testcase name="rolloverOneCharacterException" classname="com.yahoo.ycsb.generator.TestIncrementingPrintableStringGenerator" time="0"/>
+  <testcase name="rolloverOneCharacterOK" classname="com.yahoo.ycsb.generator.TestIncrementingPrintableStringGenerator" time="0"/>
+  <testcase name="systemTime" classname="com.yahoo.ycsb.generator.TestRandomDiscreteTimestampGenerator" time="0.001"/>
+  <testcase name="tooLarge" classname="com.yahoo.ycsb.generator.TestRandomDiscreteTimestampGenerator" time="0.03"/>
+  <testcase name="withStartTime" classname="com.yahoo.ycsb.generator.TestRandomDiscreteTimestampGenerator" time="0"/>
+  <testcase name="ctorWithIntervalAndUnits" classname="com.yahoo.ycsb.generator.TestUnixEpochTimestampGenerator" time="0"/>
+  <testcase name="ctorWithIntervalAndUnitsAndStart" classname="com.yahoo.ycsb.generator.TestUnixEpochTimestampGenerator" time="0"/>
+  <testcase name="defaultCtor" classname="com.yahoo.ycsb.generator.TestUnixEpochTimestampGenerator" time="0"/>
+  <testcase name="variousIntervalsAndUnits" classname="com.yahoo.ycsb.generator.TestUnixEpochTimestampGenerator" time="0"/>
+  <testcase name="testMinAndMaxParameter" classname="com.yahoo.ycsb.generator.TestZipfianGenerator" time="0.005"/>
+  <testcase name="testJSONArrayMeasurementsExporter" classname="com.yahoo.ycsb.measurements.exporter.TestMeasurementsExporter" time="0.149"/>
+  <testcase name="createOperationChooser" classname="com.yahoo.ycsb.workloads.TestCoreWorkload" time="0.003"/>
+  <testcase name="createOperationChooserNullProperties" classname="com.yahoo.ycsb.workloads.TestCoreWorkload" time="0"/>
+  <testcase name="badTimeUnit" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="failedToInitThread" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="failedToInitWorkloadBeforeThreadInit" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="insertOneKeyOneTagCardinalityOne" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.002"/>
+  <testcase name="insertOneKeyTwoTagsLowCardinality" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="insertThreeKeysTwoThreads" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="insertTwoKeysTwoTagsLowCardinality" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="insertTwoKeysTwoThreads" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="insertWithValidation" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.002"/>
+  <testcase name="read" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0"/>
+  <testcase name="twoThreads" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="validateSettingsDataIntegrity" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.001"/>
+  <testcase name="verifyRow" classname="com.yahoo.ycsb.workloads.TestTimeSeriesWorkload" time="0.008"/>
+</testsuite>
